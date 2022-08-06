@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,20 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 52px;
+  list-style-type: none;
+}
+
+.text {
+  display: flex;
+  max-width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
 }

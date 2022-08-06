@@ -71,11 +71,13 @@ button.cancel {
   display: flex;
   gap: 16px;
   padding: 16px;
+  border: 3px solid red;
 }
 
 .icon {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
+  border: 3px solid red;
 }
 
 .header {
@@ -85,8 +87,10 @@ button.cancel {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  border: 3px solid red;
 }
 
 .text {
   margin-bottom: 16px;
+  border: 3px solid red;
 }
